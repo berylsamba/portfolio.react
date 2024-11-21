@@ -1,0 +1,34 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.h3{
+    text-align: center;
+    width: 40%;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.h3 span{
+    background: linear-gradient(270deg, #df8908 10%, #b415ff 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h4{
+    background: linear-gradient(270deg, #df8908 10%, #b415ff 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px; 
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
